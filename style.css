@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Cormorant', serif;
+    background: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612752326_49-p-goluboi-fon-s-lapkami-71.jpg") ;
+    padding: 100px 0;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    width: 800px;
+    min-height: 900px;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url("https://phonoteka.org/uploads/posts/2021-04/1618959134_1-phonoteka_org-p-stilnii-gradient-fon-1.jpg") no-repeat center center / cover;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.25;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+.userpic {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background: url("https://sun9-14.userapi.com/impg/Sh8XmVrsRvDmz7GJ12fK_WcpG43FP5ErWhtKiw/59GjkCl-6Ps.jpg?size=2560x1707&quality=96&sign=55dc10ef873899f0654e6c9d78ff73ef&type=album") no-repeat center center / cover;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+width: 70%;
+padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+}
+
+.skills li {
+ padding: 10px 0;
+ transition: transform .5s ease;
+}
+
+.skills li:hover {
+    transform: translateX(10px);
+}
+
+.photo {
+    display: flex;
+    width: 100%;
+    height: 170%;
+    background: url("https://sun9-68.userapi.com/impg/abV4KzUiRDEfRp5nfrJs3Et2EEysac3EXYehzg/E839PYV9gNs.jpg?size=1440x1920&quality=95&sign=e69e2fd70391dbb1982e14956e2d2fcf&type=album") no-repeat center center / cover;
+}
